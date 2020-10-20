@@ -1,5 +1,5 @@
 # History
-This project is migrated from [2881099's csredis](https://github.com/ctstone/csredis)
+This project is migrated from [ctstone's csredis](https://github.com/ctstone/csredis)
 
 ## Features
 
