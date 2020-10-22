@@ -11,7 +11,7 @@
 		<RepositoryUrl>https://github.com/shnug/csredis/</RepositoryUrl>
 		<PackageTags>redis-trib cluster redis</PackageTags>
 		<RepositoryType>git</RepositoryType>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageLicenseExpression></PackageLicenseExpression>
 		<Title>$(AssemblyName)</Title>
 		<IsPackable>true</IsPackable>
 		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
@@ -19,6 +19,7 @@
 		<SignAssembly>false</SignAssembly>
 		<AssemblyOriginatorKeyFile>csredis.pub.snk</AssemblyOriginatorKeyFile>
 		<DelaySign>false</DelaySign>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
 		<DocumentationFile>bin\Debug\netstandard2.0\CSRedis.xml</DocumentationFile>
@@ -26,6 +27,12 @@
 	<ItemGroup>
 		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
 		<PackageReference Include="System.ValueTuple" Version="4.5.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="..\LICENSE">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
 	</ItemGroup>
   <PropertyGroup Condition="'$(TargetFramework)' == 'net40'">
     <DefineConstants>net40</DefineConstants>
