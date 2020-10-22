@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using Xunit;
 
-namespace CSRedisCore.Tests {
+namespace CSRedis.Tests {
 	public class CSRedisClientGeoTests_ : TestBase {
 
 		/*

@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace CSRedisCore.Tests {
+namespace CSRedis.Tests {
 	public class Resp3HelperTests {
 
 		public class RedisSocket : IDisposable

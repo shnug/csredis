@@ -8,8 +8,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace CSRedisCore.Tests {
-	public class CSRedisClientLockTests : TestBase {
+namespace CSRedis.Tests {
+	public class LockTests : TestBase {
 
 		[Fact]
 		public void Lock1() {

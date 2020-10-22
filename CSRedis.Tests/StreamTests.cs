@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text;
 using Xunit;
 
-namespace CSRedisCore.Tests {
-	public class CSRedisClientStreamTests : TestBase {
+namespace CSRedis.Tests {
+	public class StreamTests : TestBase {
 
 		/*
 		 * 

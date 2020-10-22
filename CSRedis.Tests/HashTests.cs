@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace CSRedisCore.Tests {
-	public class CSRedisClientHashTests : TestBase {
+namespace CSRedis.Tests {
+	public class HashTests : TestBase {
 
 		[Fact]
 		public void HDel() {

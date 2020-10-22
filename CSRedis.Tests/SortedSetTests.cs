@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using Xunit;
 
-namespace CSRedisCore.Tests {
-	public class CSRedisClientSortedSetTests : TestBase {
+namespace CSRedis.Tests {
+	public class SortedSetTests : TestBase {
 
 		public void ZAdd() { }
 		public void ZCard() { }

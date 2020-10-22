@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading;
 using Xunit;
 
-namespace CSRedisCore.Tests {
-	public class CSRedisClientListTests : TestBase {
+namespace CSRedis.Tests {
+	public class ListTests : TestBase {
 		[Fact]
 		public void BLPopWithKey() {
 			Assert.Null(rds.BRPop(1, "TestBLPopWithKey1", "TestBLPopWithKey2"));

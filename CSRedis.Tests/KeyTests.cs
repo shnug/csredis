@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using Xunit;
 
-namespace CSRedisCore.Tests {
-	public class CSRedisClientKeyTests : TestBase {
+namespace CSRedis.Tests {
+	public class KeyTests : TestBase {
 
 		[Fact]
 		public void Del() {

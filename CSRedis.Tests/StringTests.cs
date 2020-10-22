@@ -6,8 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace CSRedisCore.Tests {
-	public class CSRedisClientStringTests : TestBase {
+namespace CSRedis.Tests {
+	public class StringTests : TestBase {
 
 		[Fact]
 		public void Append() {
